@@ -19,3 +19,28 @@ int main() {
     }
     return 0;
 }
+
+// Usage of array -- linear search through an array filled with words
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char *ara[] = {"yes", "no", "pneumonoultramicroscopicsilicovolcanoconiosis"};
+    char n[45];
+    int i;
+    
+    printf("Enter a word: ");
+    scanf("%s", &n);
+    
+    for (i = 0; i < 3; i++) {
+        if (strcmp(ara[i], n) == 0) {
+            printf("found");
+            break;
+        }
+    }
+    if (i == 3){
+        printf("not found");
+    }
+    return 0;
+}
