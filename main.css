@@ -1,1 +1,48 @@
+/* All elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Whole page */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* All images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* All tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* All lists */
+ul,
+ol {
+  padding-left: 25px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* All links */
+a {
+  text-decoration: none;
+  color: blue;
+}
